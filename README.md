@@ -115,4 +115,4 @@ NGOs operate with limited resources. This platform helps answer:
 
 ## Submission
 
-Created as a practical Data Analytics internship task for NayePankh Foundation. Demonstrates end-to-end analytics: data preparation, EDA, KPI design, visualization, predictive modeling, and actionable recommendations.
+Created as a practical Data Analytics & Machine Learning internship task for NayePankh Foundation. Demonstrates end-to-end analytics: data preparation, EDA, KPI design, visualization, predictive modeling, and actionable recommendations.
