@@ -1,0 +1,16 @@
+feature,importance
+num__donation_lag_2,0.4567
+num__donation_lag_3,0.21
+num__social_reach,0.1445
+num__event_count,0.1179
+num__engagement_rate,0.0226
+num__volunteer_hours,0.0192
+cat__program_Education Support,0.0096
+num__donation_lag_1,0.0077
+num__month_num,0.0024
+cat__city_Kanpur,0.0024
+cat__program_Health Awareness,0.0018
+num__multidimensional_poverty_index,0.0014
+cat__city_Bhopal,0.0008
+cat__city_Lucknow,0.0007
+cat__program_Clothing Support,0.0007

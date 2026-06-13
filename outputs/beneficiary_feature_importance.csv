@@ -1,0 +1,16 @@
+feature,importance
+cat__city_Kanpur,29.8689
+cat__program_Education Support,27.483
+cat__program_Food Distribution,26.4424
+cat__city_Bhopal,19.6394
+num__volunteer_hours,18.7626
+cat__program_Health Awareness,10.1578
+cat__program_Clothing Support,8.4067
+num__event_count,7.089
+num__literacy_rate_pct,7.0561
+cat__city_Patna,6.9005
+num__social_reach,4.2174
+cat__city_Jaipur,3.256
+num__beneficiaries_lag_1,2.9464
+cat__city_Lucknow,2.226
+cat__city_Delhi,2.153

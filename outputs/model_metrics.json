@@ -1,0 +1,120 @@
+{
+  "results": [
+    {
+      "task": "Donation Forecasting",
+      "target": "donation_amount",
+      "model_name": "Linear Regression",
+      "metrics": {
+        "mae": 5438.75,
+        "rmse": 7150.04,
+        "r2": 0.8491,
+        "mape": 10.1
+      },
+      "recommended": false
+    },
+    {
+      "task": "Donation Forecasting",
+      "target": "donation_amount",
+      "model_name": "Random Forest",
+      "metrics": {
+        "mae": 5012.13,
+        "rmse": 6930.47,
+        "r2": 0.8582,
+        "mape": 8.92
+      },
+      "recommended": false
+    },
+    {
+      "task": "Donation Forecasting",
+      "target": "donation_amount",
+      "model_name": "Gradient Boosting",
+      "metrics": {
+        "mae": 4851.09,
+        "rmse": 6548.36,
+        "r2": 0.8734,
+        "mape": 8.57
+      },
+      "recommended": true
+    },
+    {
+      "task": "Beneficiary Reach Prediction",
+      "target": "beneficiaries_reached",
+      "model_name": "Linear Regression",
+      "metrics": {
+        "mae": 11.83,
+        "rmse": 15.33,
+        "r2": 0.9181,
+        "mape": 5.11
+      },
+      "recommended": true
+    },
+    {
+      "task": "Beneficiary Reach Prediction",
+      "target": "beneficiaries_reached",
+      "model_name": "Random Forest",
+      "metrics": {
+        "mae": 13.07,
+        "rmse": 16.99,
+        "r2": 0.8994,
+        "mape": 5.69
+      },
+      "recommended": false
+    },
+    {
+      "task": "Beneficiary Reach Prediction",
+      "target": "beneficiaries_reached",
+      "model_name": "Gradient Boosting",
+      "metrics": {
+        "mae": 13.16,
+        "rmse": 17.45,
+        "r2": 0.8939,
+        "mape": 5.7
+      },
+      "recommended": false
+    },
+    {
+      "task": "Campaign Efficiency Classification",
+      "target": "high_efficiency",
+      "model_name": "Logistic Regression",
+      "metrics": {
+        "accuracy": 0.8972,
+        "precision": 0.9824,
+        "recall": 0.8308,
+        "f1": 0.9003,
+        "roc_auc": 0.9795
+      },
+      "recommended": true
+    },
+    {
+      "task": "Campaign Efficiency Classification",
+      "target": "high_efficiency",
+      "model_name": "Random Forest",
+      "metrics": {
+        "accuracy": 0.8528,
+        "precision": 0.9868,
+        "recall": 0.7463,
+        "f1": 0.8499,
+        "roc_auc": 0.9625
+      },
+      "recommended": false
+    },
+    {
+      "task": "Campaign Efficiency Classification",
+      "target": "high_efficiency",
+      "model_name": "Gradient Boosting",
+      "metrics": {
+        "accuracy": 0.8778,
+        "precision": 0.9486,
+        "recall": 0.8259,
+        "f1": 0.883,
+        "roc_auc": 0.9579
+      },
+      "recommended": false
+    }
+  ],
+  "recommended_models": {
+    "donation_forecasting": "Gradient Boosting",
+    "beneficiary_reach": "Linear Regression",
+    "campaign_efficiency": "Logistic Regression"
+  }
+}
