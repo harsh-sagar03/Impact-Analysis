@@ -79,10 +79,6 @@ streamlit run app.py
 
 Open the analysis notebook:
 
-```bash
-jupyter notebook notebooks/01_impact_eda_and_modeling.ipynb
-```
-
 ## Dashboard Sections
 
 | Tab | Purpose |
